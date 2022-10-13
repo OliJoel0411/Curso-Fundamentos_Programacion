@@ -1,4 +1,4 @@
-# Curso-Fundamentos_Programacion
+# Curso-Fundamentos-De-Programación
 # Algoritmos 
 # Java SE
 #### Oliver Joel Locón López

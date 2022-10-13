@@ -1,4 +1,6 @@
 # Curso-Fundamentos_Programacion
+# Algoritmos 
+# Java SE
 #### Oliver Joel Locón López
 ###  Bienvenidos!!!
 
@@ -30,6 +32,3 @@ __Java__ dispone de ocho tipos primitivos de variables: un tipo para almacenar v
 tipos para enteros (byte, short, int y long) y dos para valores reales de punto flotante (__float y double__).
 
 #### Como se definen e inicializan variables 
-
-
-# Estoy probando branch pc en git

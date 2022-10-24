@@ -1,32 +1,31 @@
-# Curso-Fundamentos-De-Programación
-# Algoritmos 
-# Java SE
+
+# Fundamentos_Programacion
 #### Oliver Joel Locón López
-###  Bienvenidos!
 
-# Índice de Contenido 
+TEMARIO
 
-Inicio: lunes 24 de octubre 2022
-Finalización: 7 de diciembre 2022 
+fechas -> 24/10/2022 a 26/10/2022
 
-Dias Lunes - Miercoles - 
-9:00 pm - 10:30 pm aprox. 
-
-* Recursos:
-  - Repositorio publico con el contenido en GitHub
-  - Ejercicios propuestos
-  - Grupo de WhatsApp
-Temario:
-- Analisis del problema
-- Diseño de la solución
-------- Diagrama de Flujo
-------- Pseudocódigo (Pseint)
-- Instalación de recursos para utilizar JAVA
-- Nuestro primer programa "Hola Mundo"
-- Variables
-- String: (Cadenas)
-- Operdores
-- Flujos de control
-- Arreglos unidimensionales
-- Arreglos bidimensionales (Matríces) 
+Conceptos de programación básica
+* Operadores
+-> Operadores Aritméticos
+-> Operadores de Asignación
+-> Operadores Lógicos
+-> Operadores de Comparación
+-> Operadores a nivel de bits
+* Tipos de Datos
+-> Datos Primitivos 
+-> Conversión de Datos Primitivos
+* Estructuras de Programación 
+-> Sentencias 
+-> Comentarios
+-> Condición IF
+-> Condición IF-ELSE
+-> Condición IF-ELSE-IF
+-> Condición SWITCH CASE
+-> Repetición WHILE
+-> Repetición FOR Y FOREACH
+-> Repetición DO WHILE
+* Secuencias de Escape 
+* Ejercicios Propuestos 
 

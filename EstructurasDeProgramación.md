@@ -127,3 +127,79 @@ if(n==1){
     System.out.println(“El valor de n es mayor que tres”);
 }
 ```
+
+## Estructura de condición _switch case_
+
+La estructura de condición “switch” “case” se compone de múltiples condiciones sobre una misma variable, las cuales siempre deben arrojar un valor booleano, es decir, verdadero o falso. La variable sujeto de la condición debe encontrarse entre paréntesis, posterior a la sentencia “swich”. Los valores de la variable deben estar posterior a la sentencia “case” seguida de “:”. Posterior a cada “case” se implementan las instrucciones del proceso correspondiente. Al finalizar las instrucciones se debe colocar la sentencia _"break"_ con el fin de salir del proceso. En el caso de que no se coloque la sentencia _break_ en un proceso, se ejecutara el _"case"_ siguiente, hasta que se encuentre la sentencia _break_. 
+Opcionalmente, el último caso puede contener la sentencia “default”, la cual ejecutaría el correspondiente conjunto de instrucciones si ninguno de los anteriores es verdadero. Por otro lado, la variable de la sentencia “switch” solo puede ser de tipo int o tipo char. La sintaxis de esta sentencia es:
+
+```java
+int n = 2;
+
+switch(n){
+        case 1:
+        instrucción 1.1;
+        instrucción 1.2;
+        ..
+        instrucción 1.n;
+        break;
+        case valor 2:
+        instrucción 2.1;
+        instrucción 2.2;
+        ..
+        instrucción 2.n;
+        break;
+        default:
+        instrucción 3.1;
+        instrucción 3.2;
+        ..
+        instrucción 3.n;
+        break;
+}
+```
+
+Ejemplo de implementación:
+
+```java
+int variable; 
+
+switch(variable){
+        case 1:
+        System.out.println(“El valor de n es uno”);
+        break;
+        case 2:
+        System.out.println(“El valor de n es dos”);
+        break;
+        case 3:
+        System.out.println(“El valor de n es tres”);
+        break;
+        default:
+        System.out.println(“El valor de n es mayor que tres”);
+        break;
+}
+```
+
+## Estructura de repetición _while_
+
+La estructura de repetición “while" define un proceso iterativo decir, un proceso que se repetirá mientras que una condición tenga el valor verdadero. La sintaxis de esta sentencia es:
+
+```java
+while(condición) {
+        instrucción 1;
+        instrucción 2;
+        ..
+        instrucción n;
+}
+```
+
+Ejemplo de implementación:
+
+```java
+int i=1;
+while(i<=5) {
+    System.out.println(i); //imprime los números del 1 al 5.
+    i++;
+}
+
+Nota: es posible abortar el proceso iterativo mediante la sentencia “break”;
+```

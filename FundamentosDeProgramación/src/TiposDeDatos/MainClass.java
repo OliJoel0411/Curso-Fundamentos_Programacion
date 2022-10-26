@@ -24,5 +24,21 @@ public class MainClass {
         System.out.println("double: "+ num6);
         System.out.println("char: "+ caracter);
         System.out.println("boolean: "+ var);
+        
+        // Conversión de tipos de datos implícita
+        
+        int dato1 = 1000;
+        int dato2 = 100000;
+        long resultado;
+        resultado = dato1 * dato2;
+        System.out.println("resultado = " + resultado);
+        
+        // Conversión de tipos de datos explícitas
+        
+        long datos1 = 10000;
+        long datos2 = 1000000;
+        int resultados;
+        resultados = (int)(datos1 * datos2);
+        System.out.println("resultados = " + resultados);
     }
 }

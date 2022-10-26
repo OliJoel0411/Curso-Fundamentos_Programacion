@@ -46,3 +46,50 @@ La operación __NOT__, se aplica siempre sobre una premisa, que en un lenguaje d
 |Falso | verdadero |
 |verdadero | falso |
 
+La operación lógica _AND_, indica que la salida será verdadera si y solo si, todas sus entradas son verdaderas. El comportamiento de esta operación lógica se define asi:
+
+| Entrada 1 | Entrada 2 | AND |
+|-|-|-|
+| Falso | Falso | Falso |
+| Falso | Verdadero | Falso |
+| Verdadero | Falso | Falso |
+| Verdadero | Verdadero | Verdadero |
+
+La operación lógica OR, indica que la salida será falsa si y solo si, todas sus entradas son falsas. El comportamiento de esta operación lógica se defina asi:
+
+| Entrada 1 | Entrada 2 | NOT |
+|-|-|-|
+| Falso | Falso | Falso |
+| Falso | Verdadero | Verdadero |
+| Verdadero | Falso | Verdadero |
+| Verdadero | Verdadero | Verdadero |
+
+La operación lógica XOR, indica que la salida será verdadera si el número de entradas verdaderas es impar. El comportamiento de esta operación lógica se define asi:
+
+| Entrada 1 | Entrada 2 | NOT |
+|-|-|-|
+| Falso | Falso | Falso |
+| Falso | Verdadero | Verdadero |
+| Verdadero | Falso | Verdadero |
+| Verdadero | Verdadero | Falso |
+
+Los símbolos de las operaciones lógicas son:
+| Operador | Símbolo | Implementación | Descripción |
+|-|-|-|-|
+| NOT | ! | !A | Negación |
+| AND | && | A && B | Si __A__ es falso, no se evalúa __B__ |
+| OR | / / | A __/ /__ B | Si __A__ es verdadero, no se evalúa __B__ |
+
+## Operadores de _Comparación_
+
+Permiten la verificación de dos variables, determinando si una de ellas es mayor, igual, menor o diferente de la otra. El resultado de estas operaciones será siempre verdadero "true" o falso "false". Los símbolos de las operaciones de son los siguientes:
+
+| Operador | Símbolo | Implementación |
+|-|-|-|
+| Igual | == | A == B |
+| Diferente | != | A != B |
+| Mayor | > | A > B |
+| Menor | < | A < B |
+| Mayor-Igual | >= | A >= B |
+| Menor-Igual | <= | A <= B |
+  

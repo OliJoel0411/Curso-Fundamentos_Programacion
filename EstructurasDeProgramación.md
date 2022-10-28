@@ -260,6 +260,6 @@ Una secuencia de escape es una sentencia que sirve para representar caracteres e
 | \b | BackSpace |
 | \t | Tabulación |
 | \n | Salto de Línea |
-| \" | Comillas dobles |
-| \' | Comillas Sencillas |
+| \\" | Comillas dobles |
+| \\' | Comillas Sencillas |
 | \\\ | BackSlach |

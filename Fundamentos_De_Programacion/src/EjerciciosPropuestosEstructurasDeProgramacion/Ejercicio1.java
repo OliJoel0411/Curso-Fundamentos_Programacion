@@ -21,7 +21,7 @@ public class Ejercicio1 {
         byte num = 0;
         
         System.out.println("Ingrese el numero a evaluar");
-        tc.nextByte(num);
+        num = tc.nextByte();
         if(num < 0){
             System.out.println("Ingreso un numero negativo");
         }else {

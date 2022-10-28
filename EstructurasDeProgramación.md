@@ -200,6 +200,66 @@ while(i<=5) {
     System.out.println(i); //imprime los números del 1 al 5.
     i++;
 }
+```
+Nota: es posible abortar el proceso iterativo mediante la sentencia “break”;
+
+## Estructura de repetición _for_
+
+Define un proceso interativo. Se compone de inicialización, condición y avance. La inicialización debe incluir al menos una variable y un valor, la condición debe involucrar la variable de inicialización con el fin de tener un mecanismo de terminar el proceso iterativo y el avance debe incluir la variable de inicialización. La sintaxis es la siguiente:
+
+```java
+for(inicialización; condición; incremento) {
+    instrucción 1;
+    instrucción 2;
+    ..
+    instrucción n;
+}
+```
+
+Ejemplo de implementación:
+
+
+```java
+// 
+for(int i=1; i<=5; i++) {
+    System.out.println(i); //imprime los números del 1 al 5.
+}
+```
 
 Nota: es posible abortar el proceso iterativo mediante la sentencia “break”;
+
+## Estructura de repetición do _while_
+
+Contiene una diferencia con respecto a la estructura “while” que consiste en que el “do” “while” primero ejecuta y luego consulta, mientras que el “while” primero consulta y luego ejecuta. La sintaxis de esta sentencia es:
+
+```java
+do{
+    instrucción 1;
+    instrucción 2;
+    ..  
+    instrucción n;
+}while(condición);
 ```
+
+Ejemplo de implementación_
+
+```java
+int i=1
+do {
+    System.out.println(i); //imprime los números del 1 al 5.
+    i++;
+}while(i<=5);
+```
+
+### Secuencia de escape
+
+Una secuencia de escape es una sentencia que sirve para representar caracteres especiales. Estos caracteres inician con el símbolo “\” lo que indica que, a continuación se representa un carácter especial.
+
+| Secuencia | Descripción |
+|-|-|
+| \b | BackSpace |
+| \t | Tabulación |
+| \n | Salto de Línea |
+| \" | Comillas dobles |
+| \' | Comillas Sencillas |
+| \\\ | BackSlach |
